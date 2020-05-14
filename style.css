@@ -1,0 +1,121 @@
+body {
+  text-align:center;
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  font-family: 'Libre Franklin';
+}
+
+.container {
+  margin: 60px auto;
+}
+
+.big-header {
+  font-size:60px;
+  font-weight:normal;
+  color:gray;
+  margin:50px 0 0;
+}
+
+.big-header strong {
+  color:black;
+  font-weight:600;
+}
+
+.big-description {
+  font-size:25px;
+  font-weight:300;
+  margin:20px 0;
+}
+
+.email-form {
+  display:flex;
+  justify-content:center;
+  width:50%;
+  margin:auto;
+  
+}
+
+
+#user-input {
+  font-size:20px;
+  padding:16px 50px;
+  border-radius:28px;
+  border:1px solid #969696;
+  flex:3;
+}
+
+#user-input:focus{
+ outline:none;
+}
+
+.item{
+  margin:0 10px;
+}
+.custom-btn {
+	background-color:#4f7ef3;
+	border-radius:28px;
+	border:1px solid #4f7ef3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 50px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  flex:1;
+}
+.custom-btn:hover {
+	background-color:#759eff;
+}
+.custom-btn:active , .custom-btn:focus {
+	outline:none;
+}
+
+.main-image {
+  width:50%;
+  margin-top:30px;
+}
+.fab{
+  width:20px;
+  height:20px;
+}
+.icon {
+  padding:5px;
+  border:1px solid #4f7ef3;
+  border-radius:50%;
+  color:#4f7ef3;
+  
+}
+
+.social {
+  margin: 30px 0;
+}
+
+.copyrights {
+  font-size:10px;
+}
+
+.icon:hover {
+  color:white;
+  background-color:#4f7ef3;
+}
+
+
+
+@media only screen and (max-width:700px){
+  .email-form{
+    flex-direction:column;
+    width:80%;
+  }
+
+  #user-input {
+    margin:10px;
+  }
+
+  .main-image {
+    width:80%;
+  }
+  
+}

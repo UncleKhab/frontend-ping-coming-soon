@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/84ee8e9e43.js" crossorigin="anonymous"></script>
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -15,20 +20,52 @@
   </style>
 </head>
 <body>
+   
+  <section class="header">
+    <div class="container">
+      <img src="images/logo.svg" alt="logo">
+      <h1 class="big-header">We are launching <strong>soon!</strong></h1> 
+      <h6 class="big-description">Subscribe and get notified</h6> 
+    </div>   
+   
+    <div class="container">
+      <form class = "email-form">
+        
+        <input type="email" name="user-input" id="user-input" class= "item" placeholder = "Your Email Adress...">
+        
+        <button type="submit" id="user-submit" class = "custom-btn item">Notify Me</button>
+      </form>
+      
+    </div>
+    
 
-  We are launching soon!
+  </section>
 
-  Subscribe and get notified
+  <section class="body">
+    <div class="container">
+      <img src="images/illustration-dashboard.png" alt="dashboard" class = "main-image">
+    </div>
+  </section>
+  
+  <section class="footer">
+    <div class="social">
+      <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+    </div>
+   <p class="copyrights"> &copy; Copyright Ping. All rights reserved.</p>
+  </section>
 
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
+  
 
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Stefan Cojocaru</a>.
     </p>
   </footer>
+
+
+  <script src="app.js"></script>
 </body>
 </html>
